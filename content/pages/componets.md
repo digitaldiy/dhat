@@ -24,8 +24,8 @@ section2: |-
   src="https://www.youtube.com/embed/Js00yn142ic" frameborder="0"
   allow="autoplay; encrypted-media" allowfullscreen></iframe>
 video: 'https://ucarecdn.com/ce463aef-c600-419d-a226-fb9e7bd39f57/'
-videoPoster: 'https://ucarecdn.com/69ba14a8-6481-4671-abb6-0e6f0d9c3e46/'
-videoTitle: 'Also background videos, with poster image & title overlay.'
+videoPoster: 'https://ucarecdn.com/eead0243-d73c-416a-8ded-a8483a3bbb78/'
+videoTitle: Acupuncture & Therapies
 accordion:
   - description: Taciti lorem tempor quam vestibulum dis habitasse
     title: Taciti lorem
