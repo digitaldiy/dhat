@@ -1,6 +1,6 @@
 .BackgroundVideo-section {
   position: relative;
-  overflow: hidden;
+
   height: 40rem;
 }
 .BackgroundVideo {
@@ -10,15 +10,14 @@
   left: 0;
   width: 100vw;
   height: 100vh;
-  overflow: hidden;
   align-items: center;
   background-size: cover
 }
 
 .BackgroundVideo video {
   object-fit: cover;
-  height: 100%;
-  width: 100%;
+  width: 100vw;
+  height: 100vh;
 }
 
 .BackgroundVideo--video {
