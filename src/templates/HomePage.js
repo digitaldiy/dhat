@@ -30,6 +30,17 @@ export const HomePageTemplate = ({
         {video && <source src={video} type="video/mp4" />}
       </BackgroundVideo>
     </section>
+    <section className="section">
+      <div className="container">
+        <Content source={section1} />
+      </div>
+    </section>
+    <section className="section">
+      <div className="container">
+        <h2>Our gallery component</h2>
+        <Gallery images={gallery} />
+      </div>
+    </section>
   </main>
 )
 
