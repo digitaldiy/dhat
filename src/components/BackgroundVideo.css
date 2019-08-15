@@ -42,8 +42,8 @@
 }
 
 .Poster--videoTitle {
-  position: absolute;
-  top: 50%;
+  position: flex;
+  top: 50vh;
   left: 0;
   transform: translate(0, -50%);
   font-size: 2rem;
