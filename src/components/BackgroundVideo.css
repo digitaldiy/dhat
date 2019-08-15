@@ -2,16 +2,16 @@
   position: relative;
 
   height: 40rem;
+  
 }
 .BackgroundVideo {
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
   width: 100vw;
   height: 100vh;
-  align-items: center;
-  background-size: cover
+  background-size: cover;
+  background-position: bottom;
+  display: flex;
+  justify-content: center;
+  align-items: center
 }
 
 .BackgroundVideo video {
