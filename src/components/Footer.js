@@ -1,5 +1,5 @@
 import React from 'react'
-import InstagramFeed from './InstagramFeed'
+
 import './Footer.css'
 
 export default () => (
@@ -8,7 +8,7 @@ export default () => (
       <div className="container taCenter">
         <span>
           © Copyright {new Date().getFullYear()} All rights reserved. Crafted by{' '}
-          <a href="https://thriveweb.com.au/">Thrive</a>.
+          <a href="https://digd.in">ddn</a>.
         </span>
       </div>
     </footer>
