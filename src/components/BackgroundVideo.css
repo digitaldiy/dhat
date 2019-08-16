@@ -2,6 +2,7 @@
   position: fixed;
   background-size: cover;
   height: 40rem;
+  background-attachment: fixed;
   
 }
 .BackgroundVideo {
