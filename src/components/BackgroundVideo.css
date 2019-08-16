@@ -1,5 +1,5 @@
 .BackgroundVideo-section {
-  position: relative;
+  position: fixed;
 
   height: 40rem;
   
@@ -8,7 +8,6 @@
   width: 100vw;
   height: 100vh;
   background-size: cover;
-  background-position: bottom;
   display: flex;
   justify-content: center;
   align-items: center
@@ -30,7 +29,7 @@
 
 .BackgroundVideo--videoTitle {
   position: absolute;
-  top: 50%;
+  top: 50vh;
   left: 0;
   transform: translate(0, -50%);
   font-size: 4rem;
