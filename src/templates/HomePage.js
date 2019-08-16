@@ -25,11 +25,7 @@ export const HomePageTemplate = ({
 }) => (
   <main>
  
-    <section className="BackgroundVideo-section section">
-      <BackgroundVideo poster={videoPoster} videoTitle={videoTitle}>
-        {video && <source src="https://nlogic.cloud/file/Clients/DHAT/Plant-24105.mp4" type="video/mp4" />}
-      </BackgroundVideo>
-    </section>
+  
     <section className="section">
       <div className="container">
         <Content source={section1} />

@@ -1,9 +1,16 @@
 import React from 'react';
 import { Card, Button, CardImg, CardTitle, CardText, CardDeck,
  CardSubtitle, CardBody } from 'reactstrap';
+ import ParallaxComponent from 'react-parallax-component';
 
 const About = (props) => {
   return (
+    <ParallaxComponent
+    speed="0.003"
+    width="300"
+    top="40%"
+    left="100"
+  >
     <CardDeck>
       <Card>
         <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=256%C3%97180&w=256&h=180" alt="Card image cap" />
@@ -33,6 +40,10 @@ const About = (props) => {
         </CardBody>
       </Card>
     </CardDeck>
+    <div>
+      Children component
+    </div>
+  </ParallaxComponent>
   );
 };
 
