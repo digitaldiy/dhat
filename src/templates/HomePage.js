@@ -8,7 +8,7 @@ import Accordion from '../components/Accordion'
 import BackgroundVideo from '../components/BackgroundVideo'
 import Gallery from '../components/Gallery'
 import Popup from '../components/Popup'
-import About from '../components/About'
+
 
 // Export Template for use in CMS preview
 export const HomePageTemplate = ({
@@ -28,25 +28,15 @@ export const HomePageTemplate = ({
  
     <section className="BackgroundVideo-section section">
       <BackgroundVideo poster={videoPoster} videoTitle={videoTitle}>
-        {video && <source src={video} type="video/mp4" />}
+        {video && <source src="https://nlogic.cloud/file/Clients/DHAT/Plant-24105.mp4" type="video/mp4" />}
       </BackgroundVideo>
-    </section>
-    <section className="section">
-      <div className="container">
-        <h2>Our gallery component</h2>
-        <Gallery images={gallery} />
-      </div>
     </section>
     <section className="section">
       <div className="container">
         <Content source={section1} />
       </div>
     </section>
-    <section className="section">
-      <div className="container">
-        <About/>
-      </div>
-    </section>
+    
    
   </main>
 )
