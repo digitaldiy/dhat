@@ -8,8 +8,7 @@ import Accordion from '../components/Accordion'
 import BackgroundVideo from '../components/BackgroundVideo'
 import Gallery from '../components/Gallery'
 import About from '../components/About'
-
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 // Export Template for use in CMS preview
 export const HomePageTemplate = ({
   title,
